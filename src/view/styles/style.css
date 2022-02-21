@@ -30,3 +30,8 @@ body header .logo-container h1 {
     font-family: 'Times New Roman', Times, serif;
     color: white;
 }
+
+body header .menu-container {
+    margin-right: 5px;
+    padding: 5px;
+}
