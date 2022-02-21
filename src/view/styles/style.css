@@ -17,3 +17,8 @@ body header .logo-container {
     margin-left: 5px;
     padding: 5px;
 }
+
+body header .logo-container h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
