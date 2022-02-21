@@ -13,3 +13,7 @@ body header {
     flex-direction: row;
     justify-content: space-between;
 }
+body header .logo-container {
+    margin-left: 5px;
+    padding: 5px;
+}
