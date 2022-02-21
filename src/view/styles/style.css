@@ -8,7 +8,7 @@ body {
     font-family: sans-serif;
     height: 100vh;
 }
-header {
+body header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
