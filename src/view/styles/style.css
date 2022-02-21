@@ -35,3 +35,8 @@ body header .menu-container {
     margin-right: 5px;
     padding: 5px;
 }
+
+body header .menu-container ul {
+    display: flex;
+    flex-direction: row;
+}
