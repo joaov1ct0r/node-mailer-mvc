@@ -40,3 +40,8 @@ body header .menu-container ul {
     display: flex;
     flex-direction: row;
 }
+
+body header .menu-container ul li {
+    margin: 5px;
+    padding: 5px;
+}
