@@ -64,3 +64,8 @@ body main {
     display: flex;
     flex-direction: column;
 }
+
+body main .landingPage-container {
+    margin: 5px;
+    padding: 5px;
+}
