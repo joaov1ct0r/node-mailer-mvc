@@ -77,9 +77,9 @@ body main .landingPage-container h2 {
 }
 
 body main .landingPage-container p {
-    margin: 20px;
+    margin-left: 20px;
     padding: 20px;
-    width: 30%;
+    width: 50%;
     color: white;
     font-size: 18px;
 }
