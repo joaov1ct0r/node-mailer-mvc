@@ -108,6 +108,10 @@ body main #form-container {
     margin: 10px 40px;
 }
 
+body main #form-container fieldset {
+    padding: 10px;
+}
+
 body main #form-container h2 {
     margin: 5px 40px;
     color: white;
