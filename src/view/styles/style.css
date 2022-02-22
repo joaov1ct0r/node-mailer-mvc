@@ -109,11 +109,6 @@ body main #form-container {
     text-align: center;
 }
 
-body main #form-container fieldset {
-    padding: 10px;
-    background-color: white;
-}
-
 body main #form-container h2 {
     margin: 5px 40px;
     color: white;
@@ -122,4 +117,9 @@ body main #form-container h2 {
 
 body main #form-container form {
     padding: auto;
+}
+
+body main #form-container form fieldset {
+    padding: 10px;
+    background-color: white;
 }
