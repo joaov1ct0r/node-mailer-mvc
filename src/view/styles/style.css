@@ -62,10 +62,16 @@ body header .menu-container ul li a:hover {
 
 body main {
     display: flex;
-    flex-direction: column;
 }
 
 body main .landingPage-container {
     margin: 5px;
     padding: 5px;
+}
+
+body main .landingPage-container h2 {
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    font-size: 35px;
 }
