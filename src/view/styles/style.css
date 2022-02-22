@@ -130,3 +130,8 @@ body main #form-container form fieldset label {
     text-align: start;
     margin: 5px 0;
 }
+
+body main #form-container form fieldset input {
+    padding: 5px;
+    height: 30px;
+}
