@@ -100,3 +100,8 @@ body main .landingPage-container button:hover {
     font-weight: 900;
     transition: 0.5s;
 }
+
+body main .form-container {
+    display: flex;
+    flex-direction: column;
+}
