@@ -116,7 +116,7 @@ body main #form-container h2 {
 }
 
 body main #form-container form {
-    padding: auto;
+    padding: 10px;
 }
 
 body main #form-container form fieldset {
