@@ -123,3 +123,10 @@ body main #form-container form {
 body main #form-container form fieldset {
     padding: 10px;
 }
+
+body main #form-container form fieldset label {
+    display: inline-block;
+    width: 95%;
+    text-align: start;
+    margin: 5px 0;
+}
