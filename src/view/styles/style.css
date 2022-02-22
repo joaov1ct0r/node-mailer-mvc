@@ -90,6 +90,7 @@ body main .landingPage-container button {
     color: white;
     border: 0;
     font-size: 18px;
+    font-weight: 900;
 }
 
 body main .landingPage-container button:hover {
