@@ -55,7 +55,6 @@ body header .menu-container ul li a {
 
 body header .menu-container ul li a:hover {
     border-bottom: 1px solid white;
-    color: black;
     font-size: 18px;
     transition: 0.5s;
 }
