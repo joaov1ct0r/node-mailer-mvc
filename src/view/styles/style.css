@@ -137,3 +137,8 @@ body main #form-container form fieldset input {
     font-size: 18px;
     outline: none;
 }
+
+body main #form-container form fieldset button {
+    width: 100px;
+    height: 30px;
+}
