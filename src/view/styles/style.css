@@ -118,3 +118,7 @@ body main #form-container h2 {
     color: white;
     font-size: 20px;
 }
+
+body main #form-container form {
+    padding: auto;
+}
