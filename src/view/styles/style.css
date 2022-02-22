@@ -91,3 +91,11 @@ body main .landingPage-container button {
     border: 0;
     font-size: 18px;
 }
+
+body main .landingPage-container button:hover {
+    cursor: pointer;
+    color: rgba(32, 30, 128, 1);
+    background-color: white;
+    font-weight: 900;
+    transition: 0.5s;
+}
