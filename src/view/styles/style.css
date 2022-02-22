@@ -75,3 +75,11 @@ body main .landingPage-container h2 {
     color: white;
     font-size: 35px;
 }
+
+body main .landingPage-container p {
+    margin: 20px;
+    padding: 20px;
+    width: 30%;
+    color: white;
+    font-size: 18px;
+}
