@@ -102,7 +102,13 @@ body main .landingPage-container button:hover {
     transition: 0.5s;
 }
 
-body main .form-container {
+body main #form-container {
     display: flex;
     flex-direction: column;
+}
+
+body main #form-container h2 {
+    margin: 5px 40px;
+    color: white;
+    font-size: 20px;
 }
