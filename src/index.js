@@ -6,7 +6,7 @@ import router from './routes/userRoutes.js';
 
 let app = express();
 
-let connection = connect('mongodb://localhost:27013/nodeMailer');
+let connection = mongoose.connect('mongodb://localhost:27013/nodeMailer');
 
 if (connection) {
     console.log('Mongoose conectado');
