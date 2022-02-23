@@ -2,7 +2,7 @@ import express from 'express';
 
 import { connect } from 'mongoose';
 
-import router from './routes/userRoutes';
+import router from './routes/userRoutes.js';
 
 let app = express();
 
