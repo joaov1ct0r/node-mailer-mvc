@@ -17,6 +17,8 @@ let user = {
             const saveUser = await newUser.save();
 
             res.send(saveUser);
-        } catch (error) {}
+        } catch (error) {
+            res.status(400).send(error);
+        }
     }
 };
