@@ -12,7 +12,7 @@ if (connection) {
     console.log('Mongoose conectado');
 }
 
-app.use('/api', router);
+app.use('/api', express.json(), router);
 
 let PORT = 3000;
 
