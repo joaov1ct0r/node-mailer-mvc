@@ -1,8 +1,8 @@
-let mongoose = require('mongoose');
+import { Schema, model } from 'mongoose';
 
-let userSchema = mongoose.Schema({
+let userSchema = Schema({
     nome: { type: String, required: true, minlength: 2, maxlength: 100 },
     email: { type: String, required: true, minlength: 9, maxlength: 100 }
 });
 
-module.exports = mongoose.model('User', userSchema);
+export default model('User', userSchema);
