@@ -6,6 +6,10 @@ let app = express();
 
 let connection = mongoose.connect('mongodb://localhost:27013/nodeMailer');
 
+if (connection) {
+    console.log('Mongoose conectado');
+}
+
 let PORT = 3000;
 
 app.listen(PORT, () => {
