@@ -1,6 +1,6 @@
 import express from 'express';
 
-import { connect } from 'mongoose';
+import mongoose from 'mongoose';
 
 import router from './routes/userRoutes.js';
 
