@@ -12,5 +12,11 @@ let user = {
             nome: req.body.nome,
             email: req.body.email
         });
+
+        try {
+            const saveUser = await newUser.save();
+
+            res.send(saveUser);
+        } catch (error) {}
     }
 };
