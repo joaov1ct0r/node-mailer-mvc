@@ -4,6 +4,6 @@ import { register } from '../controllers/userController';
 
 let router = express.Router();
 
-router.get('/cadastro', register);
+router.post('/cadastro', register);
 
 export default router;
