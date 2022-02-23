@@ -12,6 +12,8 @@ if (connection) {
     console.log('Mongoose conectado');
 }
 
+app.use('/api', router);
+
 let PORT = 3000;
 
 app.listen(PORT, () => {
