@@ -1,4 +1,6 @@
-import { Schema, model } from 'mongoose';
+import mongoose from 'mongoose';
+
+const { Model, Schema } = mongoose;
 
 let userSchema = Schema({
     nome: { type: String, required: true, minlength: 2, maxlength: 100 },
