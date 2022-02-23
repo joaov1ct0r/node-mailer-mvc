@@ -7,5 +7,10 @@ let user = {
         if (checkUser) {
             return res.status(400).send('Usuario ja cadastrado');
         }
+
+        const newUser = new User({
+            nome: req.body.nome,
+            email: req.body.email
+        });
     }
 };
