@@ -5,4 +5,4 @@ let userSchema = mongoose.Schema({
     email: { type: String, required: true, minlength: 9, maxlength: 100 }
 });
 
-module.exports = mongoose.model('users', userSchema);
+module.exports = mongoose.model('User', userSchema);
