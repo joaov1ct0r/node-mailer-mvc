@@ -1,10 +1,10 @@
-let express = require('express');
+import express from 'express';
 
-let mongoose = require('mongoose');
+import { connect } from 'mongoose';
 
 let app = express();
 
-let connection = mongoose.connect('mongodb://localhost:27013/nodeMailer');
+let connection = connect('mongodb://localhost:27013/nodeMailer');
 
 if (connection) {
     console.log('Mongoose conectado');
