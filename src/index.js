@@ -19,8 +19,6 @@ if (connection) {
 
 app.use('/api', express.json(), router);
 
-let PORT = 3000;
-
-app.listen(PORT, () => {
+app.listen(process.env.SERVER_PORT, () => {
     console.log('Server running');
 });
