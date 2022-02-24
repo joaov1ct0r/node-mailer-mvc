@@ -43,8 +43,8 @@ let user = {
                     subject: 'Cadastro realizado com sucesso!',
                     html: '<h1>Parabens!!! seu cadastro foi concluido com sucesso</h1>'
                 })
-                .then(res => {
-                    res.send(res);
+                .then(response => {
+                    res.send(response);
                 });
         } catch (error) {
             res.status(400).send(error);
