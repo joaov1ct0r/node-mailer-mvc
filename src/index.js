@@ -1,5 +1,7 @@
 import 'dotenv/config';
 
+console.log(process.env.KEY_TESTE);
+
 import express from 'express';
 
 import mongoose from 'mongoose';
