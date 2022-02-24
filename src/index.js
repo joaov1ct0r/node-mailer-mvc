@@ -8,7 +8,7 @@ import router from './routes/userRoutes.js';
 
 let app = express();
 
-let connection = mongoose.connect('mongodb://localhost:27017/nodeMailer', {
+let connection = mongoose.connect(process.env.DB_ROUTE, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
