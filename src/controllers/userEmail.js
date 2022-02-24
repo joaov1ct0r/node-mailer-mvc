@@ -1,3 +1,5 @@
 import nodemailer from 'nodemailer';
 
-let user = {};
+let user = {
+    async sendEmail(req, res) {}
+};
