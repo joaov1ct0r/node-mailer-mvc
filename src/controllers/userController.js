@@ -33,6 +33,22 @@ let user = {
                 pass: process.env.EMAIL_PASSWORD
             }
         });
+
+        try {
+            transport
+                .sendMail({
+                    from: process.env.EMAIL_USER,
+                    to: req.body.email,
+                    replyTo: process.env.EMAIL_USER,
+                    subject: 'Cadastro realizado com sucesso!',
+                    html: '<h1>Parabens!!! seu cadastro foi concluido com sucesso</h1>'
+                })
+                .then(res => {
+                    res.send(res);
+                });
+        } catch (error) {
+            res.status(400).send(error);
+        }
     }
 };
 
