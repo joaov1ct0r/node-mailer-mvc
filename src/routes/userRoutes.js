@@ -8,6 +8,6 @@ let router = express.Router();
 
 router.post('/cadastro', userController.register);
 
-// router.get('/send', userController.sendEmail);
+router.post('/send', userController.sendEmail);
 
 export default router;
