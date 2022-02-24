@@ -1,5 +1,7 @@
 import User from '../models/userModel.js';
 
+import nodemailer from 'nodemailer';
+
 let user = {
     async register(req, res) {
         let checkUser = await User.findOne({ email: req.body.email });
