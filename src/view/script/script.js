@@ -12,6 +12,12 @@ function sendMail(email) {
         headers: { 'Content-type': 'application/json; charset=UTF-8' },
         body: JSON.stringify({ email })
     };
+
+    fetch(url, options).then(res => {
+        if (res.status === 200) {
+            alert('Email enviado');
+        }
+    });
 }
 
 function doRegister() {
