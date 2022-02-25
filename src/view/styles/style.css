@@ -153,3 +153,8 @@ body main .response-container {
     display: flex;
     justify-content: center;
 }
+
+body main .response-container h1 {
+    text-align: center;
+    color: white;
+}
