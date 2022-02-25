@@ -31,6 +31,8 @@ app.use('/api', express.json(), router);
 
 app.use('/', express.static(path.join(__dirname, '/view')));
 
+app.use('/send', express.static(path.join(__dirname, '/view/response')));
+
 app.listen(process.env.SERVER_PORT, () => {
     console.log('Server running');
 });
