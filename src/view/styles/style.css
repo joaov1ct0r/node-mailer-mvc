@@ -114,7 +114,7 @@ body main #form-container h2 {
     font-size: 20px;
 }
 
-body main #form-container form {
+body main #form-container .form {
     padding: 10px;
     background-color: white;
 }
