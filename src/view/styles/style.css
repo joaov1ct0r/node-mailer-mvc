@@ -146,3 +146,10 @@ body main #form-container form fieldset button {
     border: 0;
     font-size: 18px;
 }
+
+body main .response-container {
+    margin: 10px auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
