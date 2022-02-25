@@ -16,6 +16,8 @@ function sendMail(email) {
     fetch(url, options).then(res => {
         if (res.status === 200) {
             alert('Email enviado');
+        } else {
+            alert('Falha ao enviar email');
         }
     });
 }
