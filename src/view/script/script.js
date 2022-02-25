@@ -1,3 +1,5 @@
+import SendmailTransport = require("nodemailer/lib/sendmail-transport");
+
 let registerButton = document.getElementById('registerButton');
 
 registerButton.addEventListener('click', () => {
@@ -32,6 +34,8 @@ function doRegister() {
                     <div class="response-container">
                       <h1>FALHA NO CADASTRAMENTO</h1>
                     </div>`;
+
+                    sendMail();
         }
     });
 }
