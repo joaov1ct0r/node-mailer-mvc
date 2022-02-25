@@ -119,7 +119,7 @@ body main #form-container .form {
     background-color: white;
 }
 
-body main #form-container form fieldset {
+body main #form-container .form fieldset {
     padding: 10px;
 }
 
