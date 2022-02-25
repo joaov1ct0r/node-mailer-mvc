@@ -44,7 +44,7 @@ function doRegister() {
                       <h1>UMA MENSAGEM FOI ENVIADA AO SEU EMAIL!!!</h1>
                     </div>`;
 
-            sendMail();
+            sendMail(email);
         } else {
             let main = document.getElementById('main');
 
