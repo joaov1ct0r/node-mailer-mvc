@@ -8,6 +8,8 @@ import router from './routes/userRoutes.js';
 
 import path from 'path';
 
+import { fileURLToPath } from 'url';
+
 let app = express();
 
 let connection = mongoose.connect(process.env.DB_ROUTE, {
