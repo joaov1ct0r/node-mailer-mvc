@@ -46,3 +46,5 @@
 <p>A PAGINA PARA O CADASTRO SERA ABERTA E ESTARA PRONTA PARA CADASTRO</p>
 
 <h2>Picture</h2>
+
+![nodeMailer](https://user-images.githubusercontent.com/79015823/155810709-d03edf6c-5614-4f5a-96f1-4e8e532cfa0c.jpg)
