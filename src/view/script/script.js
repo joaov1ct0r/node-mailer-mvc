@@ -43,6 +43,8 @@ function doRegister() {
                     <div class="response-container">
                       <h1>UMA MENSAGEM FOI ENVIADA AO SEU EMAIL!!!</h1>
                     </div>`;
+
+            sendMail();
         } else {
             let main = document.getElementById('main');
 
@@ -50,8 +52,6 @@ function doRegister() {
                     <div class="response-container">
                       <h1>FALHA NO CADASTRAMENTO</h1>
                     </div>`;
-
-            sendMail();
         }
     });
 }
