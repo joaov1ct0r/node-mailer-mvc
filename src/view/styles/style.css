@@ -130,7 +130,7 @@ body main #form-container .form fieldset label {
     margin: 5px 0;
 }
 
-body main #form-container form fieldset input {
+body main #form-container .form fieldset input {
     padding: 5px;
     height: 30px;
     font-size: 18px;
