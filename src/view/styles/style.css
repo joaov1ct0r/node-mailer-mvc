@@ -137,7 +137,7 @@ body main #form-container .form fieldset input {
     outline: none;
 }
 
-body main #form-container form fieldset button {
+body main #form-container .form fieldset button {
     margin: 10px auto;
     width: 100px;
     height: 30px;
