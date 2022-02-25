@@ -12,6 +12,8 @@ import { fileURLToPath } from 'url';
 
 import { dirname } from 'path';
 
+const __filename = fileURLToPath(import.meta.url);
+
 let app = express();
 
 let connection = mongoose.connect(process.env.DB_ROUTE, {
