@@ -20,7 +20,7 @@ function doRegister() {
     fetch(url, options).then(res => {
         console.log(res);
         if (res.status === 200) {
-            let main = document.getElementsByTagName('main');
+            let main = document.getElementById('main');
 
             main.innerHTML = `
                     <div class="response-container">
