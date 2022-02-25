@@ -1,4 +1,4 @@
-import { response } from 'express';
+let main = document.getElementsByTagName('main');
 
 let registerButton = document.getElementById('registerButton');
 
