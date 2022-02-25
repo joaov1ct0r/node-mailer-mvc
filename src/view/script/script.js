@@ -21,6 +21,10 @@ function doRegister() {
 
     fetch(url, options).then(res => {
         if (res.status(200)) {
+            main.innerHTML = `
+                    <div class="response-container">
+                      <h1>UMA MENSAGEM FOI ENVIADA AO SEU EMAIL!!!</h1>
+                    </div>`;
         }
     });
 }
