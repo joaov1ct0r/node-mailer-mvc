@@ -1,3 +1,5 @@
+import { response } from 'express';
+
 let registerButton = document.getElementById('registerButton');
 
 registerButton.addEventListener('click', () => {
@@ -16,4 +18,9 @@ function doRegister() {
         headers: { 'Content-type': 'application/json;charset=UTF-8' },
         body: JSON.stringify({ name, email })
     };
+
+    fetch(url, options).then(res => {
+        if (res.status(200)) {
+        }
+    });
 }
