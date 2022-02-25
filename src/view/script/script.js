@@ -1,10 +1,12 @@
-import SendmailTransport = require("nodemailer/lib/sendmail-transport");
-
 let registerButton = document.getElementById('registerButton');
 
 registerButton.addEventListener('click', () => {
     doRegister();
 });
+
+function sendMail(email) {
+    let url = 'http://localhost:3000/api/send';
+}
 
 function doRegister() {
     let nome = document.getElementById('name').value;
@@ -28,14 +30,14 @@ function doRegister() {
                       <h1>UMA MENSAGEM FOI ENVIADA AO SEU EMAIL!!!</h1>
                     </div>`;
         } else {
-          let main = document.getElementById('main');
+            let main = document.getElementById('main');
 
             main.innerHTML = `
                     <div class="response-container">
                       <h1>FALHA NO CADASTRAMENTO</h1>
                     </div>`;
 
-                    sendMail();
+            sendMail();
         }
     });
 }
