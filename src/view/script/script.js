@@ -1,5 +1,3 @@
-let main = document.getElementsByTagName('main');
-
 let registerButton = document.getElementById('registerButton');
 
 registerButton.addEventListener('click', () => {
@@ -22,6 +20,8 @@ function doRegister() {
     fetch(url, options).then(res => {
         console.log(res);
         if (res.status === 200) {
+            let main = document.getElementsByTagName('main');
+
             main.innerHTML = `
                     <div class="response-container">
                       <h1>UMA MENSAGEM FOI ENVIADA AO SEU EMAIL!!!</h1>
