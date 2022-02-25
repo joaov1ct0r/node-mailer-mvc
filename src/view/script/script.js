@@ -7,5 +7,5 @@ registerButton.addEventListener('click', () => {
 function doRegister() {
     let name = document.getElementById('name').value;
 
-    let email = document.getElementById('email');
+    let email = document.getElementById('email').value;
 }
