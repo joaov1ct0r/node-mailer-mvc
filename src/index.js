@@ -6,6 +6,8 @@ import mongoose from 'mongoose';
 
 import router from './routes/userRoutes.js';
 
+import path from 'path';
+
 let app = express();
 
 let connection = mongoose.connect(process.env.DB_ROUTE, {
