@@ -10,6 +10,8 @@ import path from 'path';
 
 import { fileURLToPath } from 'url';
 
+import { dirname } from 'path';
+
 let app = express();
 
 let connection = mongoose.connect(process.env.DB_ROUTE, {
