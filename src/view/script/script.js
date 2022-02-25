@@ -6,6 +6,12 @@ registerButton.addEventListener('click', () => {
 
 function sendMail(email) {
     let url = 'http://localhost:3000/api/send';
+
+    let options = {
+        method: 'POST',
+        headers: { 'Content-type': 'application/json; charset=UTF-8' },
+        body: JSON.stringify({ email })
+    };
 }
 
 function doRegister() {
