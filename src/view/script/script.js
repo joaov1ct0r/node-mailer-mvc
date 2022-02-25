@@ -15,7 +15,7 @@ function doRegister() {
 
     let options = {
         method: 'POST',
-        headers: { 'Content-type': 'application/json;charset=UTF-8' },
+        headers: { 'Content-type': 'application/json; charset=UTF-8' },
         body: JSON.stringify({ name, email })
     };
 
