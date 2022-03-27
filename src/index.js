@@ -18,6 +18,8 @@ const __dirname = dirname(__filename);
 
 let app = express();
 
+dbConnection();
+
 app.use('/api', express.json(), userRouter);
 
 app.use('/', express.static(path.join(__dirname, '/view')));
