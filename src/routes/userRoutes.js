@@ -8,4 +8,4 @@ userRouter.post('/cadastro', register);
 
 userRouter.post('/send', sendEmail);
 
-export default router;
+export default userRouter;
