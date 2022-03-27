@@ -17,6 +17,12 @@
   <li>Mongoose</li>
   <p><code>npm install mongoose</code></p>
   <br>
+  <li>@Hapi/Joi</li>
+  <p><code>npm install @hapi/joi</code></p>
+  <br>
+  <li>NodeMailer</li>
+  <p><code>npm install nodemailer</code></p>
+  <br>
 </ul>
 
 <h2>Sobre</h2>
@@ -30,6 +36,7 @@
 <h2>MODO DE USO</h2>
 
 <h3>VARIAVEIS DE AMBIENTE</h3>
+<hr>
 
 <p>ABRA O ARQUIVO .env E ALTERE AS VARIAVEIS DE AMBIENTE COM SEUS DADOS</p>
 
@@ -43,16 +50,23 @@
 </ul>
 
 <h3>GIT</h3>
+<hr>
 
 <p>FAÇA O DOWNLOADS DO REPOSITORIO OU USE:<br><code>git clone git@github.com:joaov1ct0r/node-mailer.git</code></p>
 
+<h3>Dependencias</h3>
+<hr>
+<p>INSTALE TODAS AS DEPENDENCIAS COM O COMANDOS <code>npm install</code></p>
+
 <h3>MongoDB</h3>
+<hr>
 
 <p>INICIE O SEU SERVIDOR MYSQL COM O COMANDO:<br><code>sudo systemctl start mongod</code></p>
 
 <h3>SERVER</h3>
+<hr>
 
-<p>APOS TER OS ARQUIVOS EM SUA MAQUINA INICIE O SERVIDOR WEB NO SEU TERMINAL COM O COMANDO:<br><code>node src/index.js</code></p>
+<p>APOS TER OS ARQUIVOS EM SUA MAQUINA INICIE O SERVIDOR WEB NO SEU TERMINAL COM O COMANDO:<br><code>npm start</code></p>
 
 <p>APOS ISSO ABRA O NAVEGADOR E ENTRE COM A SEGUINTE URL:<br><code>http://localhost:3000/</code></p>
 
