@@ -1,14 +1,14 @@
 {
   "name": "emailform",
   "version": "1.0.0",
-  "description": "",
+  "description": "Formulario de email, e envio de email para confirmação de cadastro",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["@hapi/joi", "dotenv", "express", "mongoose", "nodemailer", "html5", "css3", "javascript", "nodejs"],
+  "author": "github.com/joaov1ct0r",
   "license": "ISC",
   "dependencies": {
     "@hapi/joi": "^17.1.1",
