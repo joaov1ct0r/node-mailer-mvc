@@ -4,6 +4,8 @@ import express from 'express';
 
 import userRouter from './routes/userRoutes.js';
 
+import dbConnection from './config/db.js';
+
 import path from 'path';
 
 import { fileURLToPath } from 'url';
