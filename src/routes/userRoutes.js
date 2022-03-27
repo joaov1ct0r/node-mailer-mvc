@@ -1,11 +1,11 @@
 import express from 'express';
 
-import userController from '../controllers/userController.js';
+import { register, sendEmail } from '../controllers/userController.js';
 
 let router = express.Router();
 
-router.post('/cadastro', userController.register);
+router.post('/cadastro', register);
 
-router.post('/send', userController.sendEmail);
+router.post('/send', sendEmail);
 
 export default router;
