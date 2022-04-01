@@ -1,28 +1,6 @@
 let registerButton = document.getElementById('registerButton');
 
-registerButton.addEventListener('click', () => {
-    doRegister();
-});
-
-function sendMail(email) {
-    let url = 'http://localhost:3000/api/send';
-
-    let options = {
-        method: 'POST',
-        headers: { 'Content-type': 'application/json; charset=UTF-8' },
-        body: JSON.stringify({ email })
-    };
-
-    fetch(url, options).then(res => {
-        if (res.status === 200) {
-            alert('Email enviado');
-        } else {
-            alert('Falha ao enviar email');
-        }
-    });
-}
-
-function doRegister() {
+registerButton.addEventListener('click', async () => {
     let nome = document.getElementById('name').value;
 
     let email = document.getElementById('email').value;
@@ -35,23 +13,26 @@ function doRegister() {
         body: JSON.stringify({ nome, email })
     };
 
-    fetch(url, options).then(res => {
-        if (res.status === 200) {
-            let main = document.getElementById('main');
+    const response = await fetch(url, options);
 
-            main.innerHTML = `
-                    <div class="response-container">
-                      <h1>UMA MENSAGEM FOI ENVIADA AO SEU EMAIL!!!</h1>
-                    </div>`;
+    if (response.status === 200) {
+        alert('Uma mensagem foi enviada a seu Email!');
 
-            sendMail(email);
-        } else {
-            let main = document.getElementById('main');
+        sendMail(email);
+    } else alert('Falha ao enviar mensagem a seu Email!');
+});
 
-            main.innerHTML = `
-                    <div class="response-container">
-                      <h1>FALHA NO CADASTRAMENTO</h1>
-                    </div>`;
-        }
-    });
+async function sendMail(email) {
+    let url = 'http://localhost:3000/api/send';
+
+    let options = {
+        method: 'POST',
+        headers: { 'Content-type': 'application/json; charset=UTF-8' },
+        body: JSON.stringify({ email })
+    };
+
+    const response = await fetch(url, options);
+
+    if (response.status === 200) alert('Email enviado');
+    else alert('Falha ao enviar email');
 }
